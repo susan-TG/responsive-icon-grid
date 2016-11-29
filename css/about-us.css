@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*HEADER*/
+
+nav {
+	background-color: #2B2E35;
+}
+.menu li {
+	display: inline-block;
+	margin-right: 10px;
+	padding-top: 14px;
+
+}
+.menu a {
+	color:white;
+	text-decoration: none;
+} 
+.logo {
+	padding-top: 10px;
+}
+.logo, .menu {
+	display: inline-block;
+}
+
+/*CAJA VERDE*/
+.caja-verde-padre {
+	background-color: #4DCD7A;
+	height: 200px;
+}
+.green-box {
+	padding-top: 80px;
+}
+.green-box h1, small, a {
+	color: white;
+}
+.green-box li {
+	display: inline-block;
+	margin-top: 40px;
+
+}
+.green-box a {
+	text-decoration: none;
+	margin-right: 10px;: 
+}
+
+/*CAJA GREY*/
+.grey-box {
+	background-color: #E0DFDF;
+	height: 800px;
+}
+
+
+/*CAJA PIE*/
+.caja-pie {
+	background-color: #2c3e50;
+	color: #C7C6C6;
+	height: 500px;
+}
+.lista-pie {
+	display: block;
+}
+.text-blog {
+	display: block;
+}
+
+/*CAJA FIN*/
+
+.pie  {
+	background-color: #212f3d;
+}
+.pie a {
+	color: #C7C6C6;
+}
+.pie p, i {
+	padding-top: 14px;
+	color: #C7C6C6;
+}

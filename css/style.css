@@ -1,0 +1,70 @@
+body {
+	
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+header  i {
+	text-shadow: 2px 2px 5px #999;
+	color:  #FF7F17;
+	padding-bottom:20px;
+	
+}
+
+header h3, h1, i {
+	padding-top: 20px;
+}
+header h3 {
+	font-family: 'Anton', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+
+h1,  h4 {
+	color: #7F7D7D;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+
+
+.main {
+	width: 100%;
+
+}
+li {
+	text-decoration: none;
+	display: block;
+	background-color: ;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	box-shadow: 2px 2px 5px  #999;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Shrikhand', cursive;
+}
+
+}
+i, h4 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
+ul {
+	padding-left: 0;
+}
+li i, span {
+	color: #FF7F17;
+
+}
+li i{
+	text-shadow: 2px 2px 5px #999;
+	color:  #FF7F17;
+}
+
+/*RESPONSIVE*/
+@media (min-width: 1200px) {
+	li {
+		width: 33%;
+		display: inline-block;
+
+	}
+}
+	
